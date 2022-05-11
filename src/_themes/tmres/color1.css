@@ -1,0 +1,48 @@
+<style>
+a:link
+{
+	color: rgb(128,128,0);
+}
+a:visited
+{
+	color: rgb(128,128,128);
+}
+a:active
+{
+	color: rgb(182,182,182);
+}
+body
+{
+	color: rgb(0,0,128);
+	background-color: rgb(242,242,242);
+}
+table
+{
+	table-border-color-light: rgb(192,192,192);
+	table-border-color-dark: rgb(128,128,0);
+}
+h1
+{
+	color: rgb(0,0,128);
+}
+h2
+{
+	color: rgb(0,0,128);
+}
+h3
+{
+	color: rgb(0,0,128);
+}
+h4
+{
+	color: rgb(0,0,128);
+}
+h5
+{
+	color: rgb(0,0,128);
+}
+h6
+{
+	color: rgb(0,0,128);
+}
+</style>.
