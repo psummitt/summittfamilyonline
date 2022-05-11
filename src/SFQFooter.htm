@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+<meta name="ProgId" content="FrontPage.Editor.Document">
+<title>SFQ Footer</title>
+<meta name="Microsoft Border" content="none">
+</head>
+
+<body>
+<hr>
+
+<h5 align="center"><%
+    	set AdvObject = Server.CreateObject("MSWC.AdRotator")
+    	adHTML = AdvObject.GetAdvertisement("/ads/AdRotatorSched1.txt")
+    	Response.Write adHTML
+    %>
+</h5>
+
+<h5 align="center">For more information,
+contact <a href="mailto:psummitt@summittnewmedia.com">Webmaster</a>.<br>
+Copyright © 1995-2001, Summitt New Media. All rights reserved.<br>
+Revised: <!--webbot bot="TimeStamp" s-type="EDITED" s-format="%B %d, %Y" startspan -->July 15, 2003<!--webbot bot="TimeStamp" endspan i-checksum="14336" -->.</h5>
+
+</body>
+
+</html>

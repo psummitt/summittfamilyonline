@@ -1,0 +1,47 @@
+[03-Jan-2006 22:05:29] PHP Parse error:  parse error, unexpected $ in /usr/local/etc/httpd/vhosts/summitt/php/roi05.php on line 182
+[04-Jan-2006 05:06:18] PHP Warning:  Unexpected character in input:  ' in /usr/local/etc/httpd/htdocs/clients/gscale/shop/index.php on line 228
+[06-Jan-2006 20:11:22] PHP Parse error:  parse error, unexpected $ in /usr/local/etc/httpd/vhosts/summitt/php/roi05.php on line 182
+[10-Jan-2006 14:18:36] PHP Parse error:  parse error, unexpected $ in /usr/local/etc/httpd/vhosts/summitt/php/roi05.php on line 182
+[10-Jan-2006 14:30:21] PHP Parse error:  parse error, unexpected $ in /usr/local/etc/httpd/vhosts/summitt/php/roi05.php on line 134
+[10-Jan-2006 14:32:23] PHP Parse error:  parse error, unexpected $ in /usr/local/etc/httpd/vhosts/summitt/php/roi05.php on line 135
+[10-Jan-2006 14:38:47] PHP Parse error:  parse error, unexpected $ in /usr/local/etc/httpd/vhosts/summitt/php/roi05.php on line 131
+[10-Jan-2006 15:13:14] PHP Warning:  Unexpected character in input:  ' in /usr/local/etc/httpd/vhosts/summitt/php/sendmail.php on line 75
+[10-Jan-2006 15:13:14] PHP Parse error:  parse error, unexpected '@' in /usr/local/etc/httpd/vhosts/summitt/php/sendmail.php on line 75
+[15-Jan-2006 08:13:48] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395225 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Jan-2006 08:14:02] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395225 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Jan-2006 08:14:12] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395225 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Jan-2006 08:14:24] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395225 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Jan-2006 08:14:35] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395225 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Jan-2006 08:14:49] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395225 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[24-Jan-2006 12:15:35] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[24-Jan-2006 12:15:40] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[14-Feb-2006 05:04:10] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[14-Feb-2006 05:04:16] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[14-Feb-2006 05:04:21] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[14-Feb-2006 05:04:26] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[14-Feb-2006 05:04:31] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[14-Feb-2006 05:04:40] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Feb-2006 12:22:22] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[15-Feb-2006 12:22:26] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
+[18-Feb-2006 19:51:03] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 3
+[18-Feb-2006 19:51:09] PHP Warning:  Unknown(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in Unknown on line 0
+[18-Feb-2006 19:51:09] PHP Warning:  Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2006 19:51:41] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 3
+[18-Feb-2006 19:51:45] PHP Warning:  Unknown(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in Unknown on line 0
+[18-Feb-2006 19:51:45] PHP Warning:  Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2006 19:52:54] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 3
+[18-Feb-2006 19:52:55] PHP Warning:  Unknown(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in Unknown on line 0
+[18-Feb-2006 19:52:55] PHP Warning:  Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[18-Feb-2006 19:55:06] PHP Warning:  session_start(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 3
+[18-Feb-2006 19:55:07] PHP Warning:  Unknown(): The session id contains invalid characters, valid characters are only a-z, A-Z and 0-9 in Unknown on line 0
+[18-Feb-2006 19:55:07] PHP Warning:  Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[25-Feb-2006 01:51:35] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[25-Feb-2006 01:51:35] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:02] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/local/etc/httpd/htdocs/clients/gscale/shop/admin/db_mysql.php on line 219
+[03-Mar-2006 14:39:15] PHP Fatal error:  Allowed memory size of 8388608 bytes exhausted (tried to allocate 4395243 bytes) in /usr/local/etc/httpd/htdocs/clients/gscale/shop/libsecure.php on line 159
