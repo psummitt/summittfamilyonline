@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <!-- Google Fonts Pre Connect -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -26,24 +26,77 @@
   <!-- Title -->
   <title>Summitt Family History</title>
   <noscript>Your browser doesn't support JavaScript!</noscript>
-  <script async src="./scripts.js"></script>
+  <script async src="/website/js/scripts.js"></script>
   <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
-    <h1>Summitt Family History</h1>
-  </header>
+  <nav class="navbar navbar-expand-lg navbar-expand-sm ">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">
+            <h1><strong>Summitt Family History</strong></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li>
+                    <a class="nav-item nav-link active" aria-current="page" href="index.html">HOME</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" href="about.html">ABOUT</a>
+                </li>
+                <li>
+                  <a class="nav-item nav-link" href="downloads.html">DOWNLOADS</a>
+               </li>
+               <li>
+                    <a class="nav-item nav-link" href="contact.html">CONTACT ME</a>
+              </li>
+            </ul>
+        </div>
+    </div>
+</nav>
 
-  <main>
-    <p>This is a simple HTML5 Template</p>
-  </main>
-
-  <footer>
-    <p> <img src="img/researchbanner.gif" width="600" height="60" alt="Summitt Family History"></p>
-    <hr>
-    <h5>&copy; 1995-2024 Paul M. Summitt. All rights reserved.<br>For more information, contact <a href="mailto:psummitt@msn.com">Webmaster</a>.</h5>
-  </footer>
-
+<article>
+  <div class="container-fluid">
+      <div class="row p-3">
+          <div class="col">
+              <div id="textfr">
+                  <h2 class="slidetext display-2 p-3">
+                     MY SUMMITT FAMILY HISTORY
+                  </h2>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <div class="card">
+                      <div class="card-body">
+                          <h4 class="p-3">
+                              In 1753, Jacob Sammet brought his family to Philadelphia from Germany aboard the HMS Beaula.  In 1970, my grandfather, Chester Alba Summitt, died and I ended up with a family Bible.  That Bible, published in 1840, had been owned by my Great-Great-Grandmother Betty S. Butler Summit.  That Bible began my life-long interest in my family history.  Between 1995 and 2005, my wife and I published The Summitt Family Quarterly, available for download here.  Since Jacob, the last name has been written with both one t and two ts.  Almost every person with this last name that I have ever met I have been able to connect back to Jacob.
+                          </h4>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</article>
+<footer>
+  <div>
+      <p id="textfooter">Let's Keep in Touch!</p>
+      <!-- Social media and contact links. Add or remove any networks. -->
+      <ul>
+          <li><a href="mailto:paulmsummitt@gmail.com"><img src="/website/img/email-symbol-icon-vector.jpg" title="e-mail" width="20px" height="20px" alt="email enveloper icon">
+                  paulmsummitt@gmail.com</a></li>
+          <li><a href="https://www.linkedin.com/in/paul-m-summitt/" target="_blank" rel="noopener">
+                  <img src="/website/img/LinkedIn_Logo_558766.jpg" title="LinkedIn" width="20px" height="20px" alt="LinkedIn Icon">
+                  LinkedIn</a></li>
+      </ul>
+  </div>
+  <p id="textbottom">&copy;<span id="copyright">
+      <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> Paul M. Summitt  All Rights Reserved.</p>
+</footer>
 
 </body>
+
 </html>
