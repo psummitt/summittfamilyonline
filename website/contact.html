@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Paul M. Summitt's Portfolio">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://psummitt.github.io/psummitt/index.html">
+    <meta property="og:image" content="https://psummitt.github.io/psummitt/images/me.jpg">
+    <meta property="og:image:alt" content="Image of Paul M. Summitt">
+    <meta name="author" content="Paul M. Summitt">
+    <title>Contact Me</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script async src="./js/contact_list.js"></script>
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script async src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+
+<body class="bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark ">
+        <div class="container-fluid">
+            <a class="navbar-brand link-light" href="https://psummitt.github.io/Paul-M-Summitt/">
+                <h1><strong>Paul M. Summitt</strong></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-item nav-link link-light" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="education.html">EDUCATION</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="publications.html">PUBLICATIONS</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="certs.html">CERTIFICATIONS</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="develop.html">DEVELOPMENT</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="projects.html">VIDEO PROJECTS</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link link-light" href="photo.html">PHOTOGRAPHY</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link active link-light" href="contact.html">CONTACT ME</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <article class="bg-dark">
+        <div class="container-fluid">
+            <div class="row text-bg-dark p-3">
+                <div class="col">
+                    <div id="textfr">
+                        <h1 class="slidetext display-1 text-bg-dark p-3">
+                            Join My List
+                        </h1>
+                    </div>
+                </div>
+                <div class="col">
+                    <form action="join.html" method=”get” enctype=”multipart/form-data” id="listForm" name=”listForm”>
+                        <div class="mb-3">
+                            <label for="inputEmail1" class="form-label text-bg-dark p-3">Your Email address</label>
+                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" required>
+                            <span id="email_1_error"> </span>
+                        </div>
+                        <div class="mb-3">
+                            <label for="inputEmail2" class="form-label text-bg-dark p-3">Please confirm your Email address</label>
+                            <input type="email" class="form-control" id="inputEmail2" required>
+                            <span id="email_2_error"> </span>
+                            <div id="emailHelp" class="form-text text-bg-dark p-3">I'll never share your email with anyone else.</div>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailTopic" class="form-label text-bg-dark p-3">Topic</label>
+                            <input type="text" class="form-control" id="emailTopic" required>
+                            <span id="emailTopic_error"> </span>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label text-bg-dark p-3" for="message">How can I help you?</label>
+                            <textarea class="form-control" id="message" rows="3" required></textarea>
+                            <span id="message_error"> </span>
+                        </div>
+                        <input type="button" id="join_list" value="Join my List" />
+                    </form>
+                </div>
+            </div>
+        </div>
+    </article>
+    <footer class="bg-dark">
+        <div>
+            <p id="textfooter">Let's Keep in Touch!</p>
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <ul>
+                <li><a href="mailto:paulmsummitt@gmail.com"><img src="/images/email-symbol-icon-vector.jpg" title="e-mail" width="20px" height="20px" alt="email enveloper icon">
+                        paulmsummitt@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/paul-m-summitt/" target="_blank" rel="noopener">
+                        <img src="/images/LinkedIn_Logo_558766.jpg" title="LinkedIn" width="20px" height="20px" alt="LinkedIn Icon">
+                        LinkedIn</a></li>
+            </ul>
+        </div>
+        <p id="textbottom">&copy;<span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> Paul M. Summitt  All Rights Reserved.</p>
+        <p id="source"> source code :
+            <a href="https://github.com/psummitt/psummitt"><img src="/images/Github_Logo_White_on_Black.png" title="github" id="icongithub" alt="github icon"></a></p>
+
+    </footer>
+
+</body>
+
+</html>

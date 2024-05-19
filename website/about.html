@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta property="og:title" content="Paul M. Summitt's About Me">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://psummitt.github.io/psummitt/about.html">
+    <meta property="og:image" content="https://psummitt.github.io/psummitt/images/me.jpg">
+    <meta property="og:image:alt" content="Image of Paul M. Summitt">
+    <meta name="author" content="Paul M. Summitt">
+    <title>About Me</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="/website/css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <script>
+        function calculateAgeOnLoad() {
+            // Pre-set the birthday to April 7, 1954
+            var birthday = new Date('1954-04-07');
+
+            // Calculate the age
+            var today = new Date();
+            var age = today.getFullYear() - birthday.getFullYear();
+
+            // Check if birthday hasn't occurred yet this year
+            if (
+                today.getMonth() < birthday.getMonth() ||
+                (today.getMonth() === birthday.getMonth() && today.getDate() < birthday.getDate())
+            ) {
+                age--;
+            }
+
+            // Display the result
+            var resultElement = document.getElementById('result');
+            resultElement.textContent = 'Age: ' + age;
+        }
+    </script>
+</head>
+
+<body onload="calculateAgeOnLoad()">
+    <nav class="navbar navbar-expand-lg navbar-expand-sm ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="">
+                <h1><strong>Summitt Family History</strong></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li>
+                        <a class="nav-item nav-link active" aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li>
+                        <a class="nav-item nav-link" href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                      <a class="nav-item nav-link" href="downloads.html">DOWNLOADS</a>
+                   </li>
+                   <li>
+                        <a class="nav-item nav-link" href="contact.html">CONTACT ME</a>
+                  </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- ***************  ABOUT / PROFILE  **************** -->
+    <div class="container-fluid">
+        <h1 class="slidetext display-1 p-3">About me</h1>
+        <div class="row">
+            <div class="col">
+                <div class="card p-3">
+                    <img src="https://res.cloudinary.com/dhfzm8v7y/image/upload/v1656691858/images/me_cq4e3l.jpg" class="img-thumbnail" alt="Paul M. Summitt">
+                    <div class="card-body">
+                        <h5 class="card-title">Paul M. Summitt</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="card-body">
+                        <p>Retired IT exec, educator, &amp; Web Designer/Developer.</p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item" id="result">
+                                <script>
+                                    document.getElementById("demo").innerHTML = age;
+                                </script>
+                            </li>
+                            <li class="list-group-item " id="Birthday">Birthday: 7 April 1954</li>
+                            <li class="list-group-item ">Sex: male</li>
+                            <li class="list-group-item "><a href="PMSFunctionalResume.pdf" class="card-link">Download Resume</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <p id="textfooter">Let's Keep in Touch!</p>
+            <!-- Social media and contact links. Add or remove any networks. -->
+            <ul>
+                <li><a href="mailto:paulmsummitt@gmail.com"><img src="/website/img/email-symbol-icon-vector.jpg" title="e-mail" width="20px" height="20px" alt="email enveloper icon">
+                        paulmsummitt@gmail.com</a></li>
+                <li><a href="https://www.linkedin.com/in/paul-m-summitt/" target="_blank" rel="noopener">
+                        <img src="/website/img/LinkedIn_Logo_558766.jpg" title="LinkedIn" width="20px" height="20px" alt="LinkedIn Icon">
+                        LinkedIn</a></li>
+            </ul>
+        </div>
+        <p id="textbottom">&copy;<span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> Paul M. Summitt  All Rights Reserved.</p>
+      </footer>
+      
+      </body>
+      
+      </html>
