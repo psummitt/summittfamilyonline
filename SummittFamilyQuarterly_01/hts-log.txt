@@ -1,0 +1,19 @@
+HTTrack3.49-2+htsswf+htsjava launched on Fri, 16 May 2025 10:57:15 at https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/ -O1 "C:\My Web Sites\SummittFamilyQuarterly_01" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/whatsnew.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/previous_issues.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/FamHistIndex.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/SpecialPages.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/bdcalc.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/search.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/_derived/PrivacyPolicy.htm_cmp_tmres110_vbtn_a.gif (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+10:59:02	Error: 	"NOT FOUND" (404) at link https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/SFQ/Vol7Iss2pg01.pdf (from https://web.archive.org/web/20010723055946/http://www.summittfamilyquarterly.org/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 47 seconds : 40 links scanned, 31 files written (623800 bytes overall) [631793 bytes received at 5904 bytes/sec], 1736060 bytes transferred using HTTP compression in 14 files, ratio 24%, 18.5 requests per connection
+(8 errors, 0 warnings, 0 messages)
